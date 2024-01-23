@@ -82,6 +82,12 @@ button {
 
 .change-btn {
   color: hsl(245, 75%, 52%);
+  transition: all 0.3s;
+}
+
+.change-btn:hover {
+  text-decoration: none;
+  opacity: 0.5;
 }
 
 .music-icon {
@@ -113,10 +119,22 @@ button {
   border-radius: 10px;
   margin-bottom: 18px;
   box-shadow: 3px 10px 5px hsla(245, 75%, 52%, 0.15);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.proceed-btn:hover {
+  opacity: 0.7;
 }
 
 .cancel-btn {
   color: rgb(112, 112, 112);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cancel-btn:hover {
+  color: black;
 }
 
 .attribution {
