@@ -41,6 +41,7 @@ button {
   height: 670px;
   border-radius: 30px;
   overflow: hidden;
+  box-shadow: 3px 8px 5px rgba(170, 170, 170, 0.15);
 }
 
 .order-header {
@@ -111,6 +112,7 @@ button {
   color: white;
   border-radius: 10px;
   margin-bottom: 18px;
+  box-shadow: 3px 10px 5px hsla(245, 75%, 52%, 0.15);
 }
 
 .cancel-btn {
