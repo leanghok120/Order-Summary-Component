@@ -16,6 +16,16 @@ body {
   background-color: hsl(225, 100%, 94%);
 }
 
+button {
+  background-color: white;
+  border: none;
+  height: 45px;
+}
+
+.flex {
+  display: flex;
+}
+
 .container {
   height: 95%;
   align-items: center;
@@ -28,7 +38,7 @@ body {
   background-color: white;
   color: black;
   width: 450px;
-  height: 650px;
+  height: 670px;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -47,6 +57,63 @@ body {
 .description {
   text-align: center;
   width: 350px;
+  margin-bottom: 15px;
+  color: rgb(112, 112, 112);
+}
+
+.pricing {
+  background-color: hsl(225, 100%, 98%);
+  width: 100%;
+  height: 85px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+.plan {
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(112, 112, 112);
+}
+
+.change-btn {
+  color: hsl(245, 75%, 52%);
+}
+
+.music-icon {
+  display: block;
+  width: 100%;
+}
+
+.img-container {
+  background-color: hsl(225, 100%, 94%);
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.btn {
+  flex-direction: column;
+  width: 100%;
+}
+
+.proceed-btn,
+.cancel-btn {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.proceed-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.cancel-btn {
   color: rgb(112, 112, 112);
 }
 
@@ -56,8 +123,4 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.flex {
-  display: flex;
 }
